@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="js/new.js">
+   
+
+    <title>index</title>
+</head>
+
+<body>
+ 
+    
+    <div>
+        <nav>
+          <div class="nav1">
+          
+            <img class="logo" src="imgs/logo1.png" alt="">
+          <ul >
+             
+            <li ><a  href="index.html">Home</a></li>
+            <li><a href="galry.html">Gallary</a></li>
+          
+            <li><a href="manu.html">Menu Options</a></li>
+            <li><a href="#bil">Billing</a></li>
+    
+        </ul>
+    </nav>
+        </nav>
+      </div>
+    </div>
+
+    <header id="home">
+        ?
+     </header>
+
+
+
+
+<div style="margin-top: 200px; align-items: center; text-align: center;">
+    <h1 style="margin-bottom: 50px;">Menu card</h1>
+     <table class="tbl"  >
+        <tr >
+          <th>Starters</th>
+          <th>Main</th>
+          <th>Desserts</th>
+          <th>drinks</th>
+        </tr>
+        <tr>
+          <td>  <img class="img2" src="imgs/wings.jpg" alt=""></td>
+          <td>  <img class="img2" src="imgs/chkn hndi.jpg" alt=""></td>
+          <td><img class="img2" src="imgs/bskt.jpg" alt=""></td>
+          <td>    <img class="img2" src="imgs/orng.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td>chicken Wings........20/-</td>
+            <td>chicken handi........40/-</td>
+            <td>Biscuits.............10/-</td>
+            <td>Orange juice.........20/-</td>
+          </tr>
+        <tr>
+          <td>        <img class="img2" src="imgs/brco.jpg" alt=""></td>
+          <td> <img class="img2" src="imgs/brgr.jpg" alt=""></td>
+          <td><img class="img2" src="imgs/css.jpg" alt=""></td>
+          <td><img class="img2" src="imgs/cofee.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td>Broccoli(vegetarian)..10/-</td>
+            <td>Burger................25/-</td>
+            <td>Custards..............20/-</td>
+            <td>Coffee................25/-</td>
+          </tr>
+        <tr>
+          <td><img class="img2" src="imgs/veh lolipop.jpg" alt=""></td>
+          <td><img class="img2" src="imgs/piz.jpg" alt=""></td>
+          <td>         <img class="img2"  src="imgs/ice.webp" alt=""></td>
+          <td> <img  class="img2" src="imgs/tea.cms" alt=""></td>
+        </tr>
+        <tr>
+          <td>Lollipop(vegetarian)..15/-</td>
+          <td>Pizza..............50/-</td>
+          <td>Ice Creams........15/-</td>
+          <td>Tea...............15/-</td>
+        </tr>
+     
+      </table>
+    </div>
+         <h1 style="margin-top:200px;" class="heading">Menu options</h1>
+  
+<div class="form2">
+        <div style="display: inline-flex;">
+            <h1>Starter</h1>
+            <h1 style="margin-left: 250px;">Quantity</h1>
+            <h1 style="margin-left: 15px;">Price</h1>
+        </div> <br>
+        <div style="display: inline-flex;">
+            <input class="checkbox" type="checkbox" name="" id="" value="">
+            <label class="labelfrm" for=""> chicken Wings</label>
+            <input style="margin-left: 175px;" class="redbox txt1" type="number" id="chicken" name="txt" min="1"
+>           <input style="margin-left: 15px; " class="redbox menu1"   value="20 Euros"  id="chicken_price" readonly >
+        </div> <br>
+        <div style="display: inline-flex;">
+            <input class="checkbox" type="checkbox" name="" id="" value="">
+            <label class="labelfrm" for="">Broccoli(vegetarian)</label>
+            <input style="margin-left: 120px;" class="redbox txt1" type="number" id="borcoli" name="txt" min="1"
+                max="50">
+                <input style="margin-left: 15px;" class="redbox menu1"  value="10 Euros" id="borcoli_price" readonly >
+        </div> <br>
+        <div style="display: inline-flex;">
+            <input class="checkbox" type="checkbox" name="" id="" value="">
+            <label class="labelfrm" for="">Lollipop(vegetarian)</label>
+            <input style="margin-left: 120px;" class="redbox txt1" type="number" id="vegrtar" name="txt" min="1"
+                max="50">
+                <input style="margin-left: 15px;" class="redbox menu1" value="15 Euros" id="vegrtar_price" readonly >
+        </div> <br>
+        Sum :
+        <span class="starter_sum">0</span>
+        <br>
+    </div>
+   
+        <div class="form2">
+        <div style="display: inline-flex;">
+            <h1>Main</h1>
+            <h1 style="margin-left: 250px;">Quantity</h1>
+            <h1 style="margin-left: 15px;">Price</h1>
+        </div> <br>
+        <div style="display: inline-flex;">
+            <input class="checkbox" type="checkbox" name="" id="" value="">
+            <label class="labelfrm" for=""> chicken handi</label>
+            <input style="margin-left: 180px;" class="redbox txt2" type="number" id="handi" name="menu" min="1"
+                max="50">
+                <input style="margin-left: 15px;" class="redbox menu2"  value="40 Euros" id="handi_price" readonly>
+        </div> <br>
+        <div style="display: inline-flex;">
+            <input class="checkbox" type="checkbox" name="" id="" value="">
+            <label class="labelfrm" for="">Burger</label>
+            <input style="margin-left: 250px;" class="redbox txt2" type="number" id="burger" name="menu" min="1"
+                max="50">
+                <input style="margin-left: 15px;" class="redbox menu2"  value="25 Euros" id="burger_price" readonly>
+        </div> <br>
+        <div style="display: inline-flex;">
+            <input class="checkbox" type="checkbox" name="" id="" value="">
+            <label class="labelfrm" for="">pizza</label>
+            <input style="margin-left: 260px;" class="redbox txt2" type="number" id="pizza" name="menu" min="1"
+                max="50">
+                <input style="margin-left: 15px;" class="redbox menu2" value="50 Euros" id="pizza_price" readonly >
+        </div> <br>
+        Sum :
+        <span class="menu_sum">0</span>
+        <br>
+        </div>
+
+        <div class="form2">
+        <div style="display: inline-flex;">
+            <h1>Desserts</h1>
+            <h1 style="margin-left: 250px;">Quantity</h1>
+            <h1 style="margin-left: 15px;">Price</h1>
+        </div> <br>
+        <div style="display: inline-flex;">
+            <input class="checkbox" type="checkbox" name="" id="" value="">
+            <label class="labelfrm" for=""> biscuits</label>
+            <input style="margin-left: 255px;" class="redbox txt3" type="number" id="biscuits" name="dessert" min="1"
+                max="50">
+                <input style="margin-left: 15px;" class="redbox menu3" value="10 Euros" id="biscuits_price" readonly >
+        </div> <br>
+        <div style="display: inline-flex;">
+            <input class="checkbox" type="checkbox" name="" id="" value="">
+            <label class="labelfrm" for="">custards</label>
+            <input style="margin-left: 250px;" class="redbox txt3" type="number" id="desserts" name="dessert" min="1"
+                max="50">
+                <input style="margin-left: 15px;" class="redbox menu3" value="20 Euros " id="desserts_price" readonly >
+        </div> <br>
+        <div style="display: inline-flex;">
+            <input class="checkbox" type="checkbox" name="" id="" value="">
+            <label class="labelfrm" for="">ice creams</label>
+            <input style="margin-left: 235px;" class="redbox txt3" type="number" id="ice" name="dessert" min="1"
+                max="50">
+                <input style="margin-left: 15px;" class="redbox menu3"  value="15 Euros" id="ice_price" readonly>
+        </div> <br>
+        Sum :
+        <span class="dessert_sum">0</span>
+        <br>
+        </div>
+    
+        <div class="form2">
+        <div style="display: inline-flex;">
+            <h1>Drinks</h1>
+            <h1 style="margin-left: 250px;">Quantity</h1>
+            <h1 style="margin-left: 15px;">Price</h1>
+        </div> <br>
+        <div style="display: inline-flex;">
+            <input class="checkbox" type="checkbox" name="" id="" value="">
+            <label class="labelfrm" for=""> Orange juice</label>
+            <input style="margin-left: 185px;" class="redbox txt4" type="number" id="juice" name="drinks" min="1"
+                max="50">
+                <input style="margin-left: 15px;" class="redbox menu4" value="20 Euros" id="juice_price" readonly>
+        </div> <br>
+        <div style="display: inline-flex;">
+            <input class="checkbox" type="checkbox" name="" id="" value="">
+            <label class="labelfrm" for="">Coffee</label>
+            <input style="margin-left: 250px;" class="redbox txt4" type="number" id="coffee" name="drinks" min="1"
+                max="50">
+                <input style="margin-left: 15px;" class="redbox menu4" value="25 Euros" id="coffee_price" readonly>
+        </div> <br>
+        <div style="display: inline-flex;">
+            <input class="checkbox" type="checkbox" name="" id="" value="">
+            <label class="labelfrm" for="">Tea</label>
+            <input style="margin-left: 270px;" class="redbox txt4" type="number" id="tea" name="drinks" min="1"
+                max="50">
+                <input style="margin-left: 15px;" class="redbox menu4" value="15 Euros" id="tea_price" readonly>
+        </div> <br>
+        Sum :
+        <span class="drinks_sum">0</span>
+        <br>
+        </div>
+       
+<div id="bil"></div>
+    <div  class="form4">
+        <h1>Billing</h1>
+
+        <label class="inpt1" for="">Starters: </label>
+        <div class="start" style="border: 2px solid #eee; padding: 10px;  width: 200px;">
+            <span class="starter_sum">0</span>
+        </div>
+
+        <label class="inpt1" for="">Main</label>
+        <div style="border: 2px solid #eee; padding: 10px;  width: 200px;">
+            <span class="menu_sum">0</span>
+        </div>
+        <br>
+        <label class="inpt1" for="">Desserts</label>
+        <div style="border: 2px solid #eee; padding: 10px;  width: 200px;">
+            <span class="dessert_sum">0</span>
+
+        </div>
+
+        <br>
+        <label class="inpt1" for="">Drinks</label>
+        <div style="border: 2px solid #eee; padding: 10px;  width: 200px;">
+            <span class="drinks_sum">0</span>
+        </div>
+
+        <br>
+        
+        <label class="inpt1" for="">Total bill: </label> <br>
+     
+
+        <input style="width: 230px;" id="totals" placeholder="0" readonly >
+        <br>
+        <button id="add" type="button" onclick="add()" class="btn">calculate</button>
+    </div>
+
+
+    <script src="js/menu.js" type="text/javascript"></script>
+
+</body>
+
+</html>
