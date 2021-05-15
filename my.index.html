@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link  href="js/new.js">
+    <title>index</title>
+</head>
+<body onload="getData()" >
+ 
+ 
+  <div>
+    <nav>
+      <div class="nav1">
+        <img class="logo" src="imgs/logo1.png" alt="">
+      <ul >
+         
+        <li id="index.html"><a  href="">Home</a></li>
+        <li><a href="galry.html">Gallary</a></li>
+        <li><a href="#Cus">Customer</a></li>
+        <li><a href="manu.html">Menu Options</a></li>
+
+    </ul>
+</nav>
+    </nav>
+  </div>
+</div>
+
+<header  id="pas" id="home">
+   ?
+</header>
+<main>
+<h3 class="vld">Staff password validator</h3>
+
+<div >
+  <form >
+    
+    <label style="  color: rgb(41, 8, 126); font-weight: bold;" for="psw">Password</label>
+    <input class="pswrd" type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required> <br>
+    
+    <input type="submit" value="Check password">
+  </form>
+</div>
+
+<div id="message">
+  <h3>Password must contain the following:</h3>
+  <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+  <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+  <p id="number" class="invalid">A <b>number</b></p>
+  <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+</div>
+</main>
+<div id="Cus"></div>
+<form>
+    <h1 id="Cus" class="heading">Customers</h1>
+  
+    
+  <div id="output"></div>
+
+  <script src="./js/main.js"></script>
+
+
+</form>
+</body>
+</html>
