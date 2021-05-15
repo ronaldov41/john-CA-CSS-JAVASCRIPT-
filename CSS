@@ -1,0 +1,296 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+.nav1{
+  background-image: linear-gradient(to right,rgb(50, 11, 158), #3c1053);
+  position: fixed;
+  width: 100%;
+
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.img1{
+  border-radius: 20px;
+  border: 5px solid white;
+  height: 400px;
+  
+  width: 500px;
+}
+
+ul li{
+ padding-top: 20px;
+    display: inline;
+    margin-right: 90px;
+    list-style: none;
+}
+ul li a{
+    font-size: 25px;
+    color: rgb(227, 233, 229);
+   font-weight: bold;
+    text-decoration: none;
+
+}
+.logo{
+    height: 80px;
+    width: 100px;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  /* Style the submit button */
+  main{
+      justify-content: center;
+   text-align: center;
+   margin-top: 100px;
+      align-items: center;
+  }
+  .pswrd{
+width: 450px;
+  }
+      
+  @media only screen and (max-width: 500px) {
+    .pswrd{
+        width: 350px;
+          }
+  }
+  @media only screen and (max-width: 500px) {
+    .pswrd{
+        width: 300px;
+          }
+  }
+  input[type=submit] {
+    background-color:rgb(50, 11, 158);
+    color: white;
+    width: 200px;
+  }
+  .vld{
+      color: rgb(41, 8, 126);
+      font-size: 30px;
+      margin-top: 200px;
+  }
+    @media only screen and (max-width: 500px){
+.vld{
+margin-top: 200px;
+}
+    }
+  #message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+  .heading{
+    color: rgb(28, 4, 88);
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 50px;
+  }
+  .cus{
+    width: 100px;
+    height: 100px;
+}
+.form{
+    font-size:15px ;
+    line-height: 40px;
+    color: black;
+    margin-left: 340px;
+    
+ text-align: left;
+ height: 450px;
+ width: 350px;
+ margin-bottom: 50px;
+ padding:100px;
+box-shadow: 20px 20px 20px 10px  rgb(42, 34, 49);
+}
+label{
+  color: #1e1125;
+  font-weight: bold;
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .form{
+   margin-left: 300px;
+        }
+}
+
+@media only screen and (max-width:970px) {
+  .form{
+   margin-left: 200px;
+   width: 300px;
+        }
+}
+@media only screen and (max-width:830px) {
+  .form{
+   margin-left: 150px;
+   width: 250px;
+        }
+}
+@media only screen and (max-width:730px) {
+  .form{
+   margin-left: 100px;
+   width: 200px;
+   height: 550px;
+        }
+}
+@media only screen and (max-width:560px) {
+  .form{
+   margin-left: 50px;
+   width:150
+        }
+}
+@media only screen and (max-width:560px) {
+  .form{
+   margin-left:10px;
+   width: 150px;
+        }
+}
+@media only screen and (max-width:390px) {
+  .form{
+   margin-left:0px;
+   width: auto;
+        }
+  .heading{
+
+  margin-left: 0px;
+  
+}
+}
+.checkbox{
+height: 20px;
+width: 40px;
+}
+.labelfrm{
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 5px;
+  
+}
+.redbox{
+  height: 30px;
+  width: 100px;
+   
+}
+.form2{
+  text-align: center;
+  margin-top: 50px;
+
+}
+.inpt{
+  width: 200px;
+   width: 200px;
+}
+.btn{
+  width: 230px;
+  height: 40px;
+  background-image: linear-gradient(to right,#005AA7, #FFFDE4);
+  color: rgb(54, 16, 194);
+  border-radius: 5px;
+font-size:bold;
+margin-bottom: 50px;
+margin-top: 10px;
+}
+.form4{
+margin-left: 500px;
+line-height: 20px;
+width: 300px;
+padding: 10px 20px;
+color: white;
+margin-top: 150px;
+background-image: linear-gradient(to right,rgb(50, 11, 158), #3c1053);
+}
+@media only screen and (max-width: 1200px){
+  .form4{
+margin-left: 400px;
+  }
+}
+@media only screen and (max-width: 1080px){
+  .form4{
+margin-left: 300px;
+  }
+}
+@media only screen and (max-width: 790px){
+  .form4{
+margin-left: 200px;
+  }
+}
+@media only screen and (max-width: 650px){
+  .form4{
+margin-left: 100px;
+  }
+}
+.inpt1{
+  color: #FFFDE4;
+}
+.img2{
+  width: 150px;
+  height: 130px;
+}
+.tbl{
+  margin-left: 300px;
+}
+@media only screen and (max-width: 1200px){
+  .tbl{
+    margin-left: 250px;
+  }
+}
+@media only screen and (max-width: 1100px){
+  .tbl{
+    margin-left: 200px;
+  }
+}
+@media only screen and (max-width: 922px){
+  .tbl{
+    margin-left: 150px;
+  }
+}
+@media only screen and (max-width: 900px){
+  .tbl{
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 800px){
+  .tbl{
+    margin-left: 0px;
+  }
+}
