@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="js/new.js">
+   
+
+    <title>index</title>
+</head>
+
+<body> 
+    <div>
+        <nav>
+          <div class="nav1">
+          
+            <img class="logo" src="imgs/logo1.png" alt="">
+          <ul >
+             
+            <li ><a  href="index.html">Home</a></li>
+            <li><a href="index.html">Gallary</a></li>
+            <li><a href="manu.html">Menu Card</a></li>
+            <li><a href="manu.html">Menu Options</a></li>
+            
+    
+        </ul>
+    </nav>
+        </nav>
+      </div>
+    </div>
+
+    <header id="home">
+        ?
+     </header>
+
+     <div style="margin-top: 200px; align-items: center; margin-bottom: 100px;
+     text-align: center;">
+         <h1 style="margin-top: 100px; margin-bottom: 100px; font-size: 40px;   color: rgb(41, 8, 126);" >Starters</h1>
+         <div >
+             <img class="img1" src="imgs/wings.jpg" alt="">
+       <img class="img1" src="imgs/brco.jpg" alt="">
+       <img class="img1" src="imgs/veh lolipop.jpg" alt="">
+       <img class="img1" src="imgs/brc.jpg" alt="">
+            </div>
+            <h1 style="margin-top: 100px; margin-bottom: 100px; font-size: 40px;   color: rgb(41, 8, 126);">Main</h1>
+            <div >
+                <img class="img1" src="imgs/fst.jpg" alt="">
+          <img class="img1" src="imgs/brgr.jpg" alt="">
+          <img class="img1" src="imgs/piz.jpg" alt="">
+          <img class="img1" src="imgs/chkn hndi.jpg" alt="">
+               </div>
+               <h1 style="margin-top: 100px; margin-bottom:100px; font-size: 40px;   color: rgb(41, 8, 126);">Desserts</h1>
+               <div >
+                   <img class="img1" src="imgs/des.jpg" alt="">
+             <img class="img1" src="imgs/bskt.jpg" alt="">
+             <img class="img1" src="imgs/css.jpg" alt="">
+             <img class="img1" src="imgs/icc.jpg" alt="">
+                  </div>
+                  <h1 style="margin-top: 100px; margin-bottom:100px;font-size: 40px;   color: rgb(41, 8, 126);">Drinks</h1>
+                  <div >
+                      <img class="img1" src="imgs/orng.jpg" alt="">
+                <img class="img1" src="imgs/cofee.jpg" alt="">
+                <img class="img1" src="imgs/tea.cms" alt="">
+                <img class="img1" src="imgs/drnk.jpg" alt="">
+                     </div>
+     </div>
